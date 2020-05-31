@@ -10,6 +10,12 @@
 }
 
 @media all and (max-width: 991px) {
+    .service-sec{
+        height: auto !important;
+    }
+    .typed_wrap {
+        width: 100%;
+    }
     .w-50{
         width: 100% !important;
     }
@@ -32,7 +38,7 @@
         height: auto;
     }
     .service-block p {
-        height: 110px;
+        height: 100%;
     }
 
     .primary-color-gradient-overlay{
@@ -73,15 +79,18 @@
 }
 
 @media all and (max-width: 767px) {
+    .logo h2{
+        font-size: 18px;
+    }
     .h-100vh{
-        height: 160vh;
+        height: 100vh;
     }
 
     .contact-box {
         border-radius: 0px !important;
     }
     .footer-bottom{
-        margin-bottom: 60px;
+        margin-bottom: 0px;
     }
 
 }
