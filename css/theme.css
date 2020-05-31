@@ -1,0 +1,135 @@
+:root {
+    /* Bootstrap CSS variables
+        --blue: #007bff;
+        --indigo: #6610f2;
+        --purple: #6f42c1;
+        --pink: #e83e8c;
+        --red: #dc3545;
+        --orange: #fd7e14;
+        --yellow: #ffc107;
+        --green: #28a745;
+        --teal: #20c997;
+        --cyan: #17a2b8;
+        --white: #fff;
+        --gray: #6c757d;
+        --gray-dark: #343a40;
+        --primary: #007bff;
+        --secondary: #6c757d;
+        --success: #28a745;
+        --info: #17a2b8;
+        --warning: #ffc107;
+        --danger: #dc3545;
+        --light: #f8f9fa;
+        --dark: #343a40;
+        --breakpoint-xs: 0;
+        --breakpoint-sm: 576px;
+        --breakpoint-md: 768px;
+        --breakpoint-lg: 992px;
+        --breakpoint-xl: 1200px;
+        --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+        --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    */
+
+    /* User Defined CSS variables
+    *  We can even overwrite this veriable if required.
+    */
+
+    --primary-color: #66cc66;
+    --secondary-color: #777777;
+    --tertiary-color: #FFFFFF;
+    --quaternary-color: #000000;
+
+    --secondary-bg-color: #ffffff;
+    --tertiary-bg-color: #ebebeb;
+
+    --sidebar-bg-color: var(--secondary-bg-color);
+    --sidebar-color: var(--tertiary-color);
+    --sidebar-active-color: var(--primary-color);
+    --sidebar-brand-color: var(--tertiary-color);
+
+    --panel-bg-color: #f4f3ef;
+    --navbar-bg-color: var(--primary-bg-color);
+    --navbar-color: var(--secondary-color);
+    --navbar-active-color: var(--primary-color);
+
+    --hamburger-color: var(--secondary-color);
+    --input-border-color:#dddddd;
+}
+
+.color-primary {
+    color: var(--primary-color);
+}
+
+.color-secondary {
+    color: var(--secondary-color);
+}
+
+.color-tertiary {
+    color: var(--tertiary-color);
+}
+
+.color-quaternary {
+    color: var(--quaternary-color);
+}
+
+.primary-bg-color {
+    background-color: var(--primary-color);
+}
+
+.secondary-bg-color {
+    background-color: var(--secondary-bg-color);
+}
+
+.tertiary-bg-color {
+    background-color: var(--tertiary-bg-color);
+}
+.quaternary-bg-color{
+    background-color: var(--quaternary-color);
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+}
+
+img{
+	width: 100%;
+}
+iframe{
+    width: 100%;
+    height: 100%;
+}
+a:hover{
+	text-decoration: none;
+}
+
+.bold{
+    font-weight: bold;
+}
+.h-100{
+    height: 100%;
+}
+.h-80vh{
+    height: 80vh;
+}
+.h-100vh{
+    height: 100vh;
+}
+.h-70px{
+    height: 70px;
+}
+.background-property{
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.mt-100{
+    margin-top: 100px;
+}
+.x-small{
+    font-size: x-small;
+}
+.xx-small{
+    font-size: xx-small;
+}
