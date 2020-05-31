@@ -18,7 +18,7 @@ $(document).ready(function(){
     $('.test-slider').slick({
          dots: true,
          arrows: false,
-         autoplay: false,
+         autoplay: true,
          slidesToShow: 1,
          autoplaySpeed: 1300,
          responsive: [
