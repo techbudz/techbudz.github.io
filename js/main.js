@@ -20,7 +20,7 @@ $(document).ready(function(){
          arrows: false,
          autoplay: true,
          slidesToShow: 1,
-         autoplaySpeed: 1300,
+         autoplaySpeed: 4000,
          responsive: [
            {
              breakpoint: 768,

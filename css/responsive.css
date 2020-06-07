@@ -93,6 +93,10 @@
         margin-bottom: 0px;
     }
 
+    .client-logo{
+        width: 100%;
+    }
+
 }
 
 @media all and (max-width: 575px) {
